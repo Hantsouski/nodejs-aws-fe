@@ -1,15 +1,12 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# package directories
 node_modules
+jspm_packages
+build
+/coverage
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# production
-build
+# Serverless directories
 .serverless
 
 # misc
